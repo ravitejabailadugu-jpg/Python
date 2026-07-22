@@ -1,0 +1,6 @@
+n = int(input("Enter a number: "))
+
+if 101 <= abs(n) <= 998:
+    print("3-digit number")
+else:
+    print("Not a 3-digit number")
