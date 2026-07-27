@@ -1,6 +1,6 @@
 cars=[
- { "brand": "Maruti Suzuki", "model": "Swift", "price": 650000, "color": "Red" },
- { "brand": "Maruti Suzuki", "model": "Baleno", "price": 800000, "color": "Blue" },
+ { "brand": "Maruthi Suzuki", "model": "Swift", "price": 650000, "color": "Red" },
+ { "brand": "Maruthi Suzuki", "model": "Baleno", "price": 800000, "color": "Blue" },
  { "brand": "Hyundai", "model": "i20", "price": 900000, "color": "White" },
  { "brand": "Hyundai", "model": "Venue", "price": 1100000, "color": "Black" },
  { "brand": "Tata", "model": "Nexon", "price": 1200000, "color": "Grey" },
@@ -21,6 +21,16 @@ cars=[
  { "brand": "Nissan", "model": "Magnite", "price": 900000, "color": "Silver" }
 ]
 
-def update_car(car):
-    cars:availible ==True
-print(list(map(update_car,cars)))
+
+
+
+new_cars=[]
+for car in cars:
+    if car['brand']=="maruthi suzuki":
+        new_cars.append(car)
+
+
+print(new_cars)        
+
+
+
