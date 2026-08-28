@@ -12,8 +12,7 @@ class account:
         self.acc_bal=self.acc_bal+amount
 
     def wihtdraw(self,amount):
-        self.acc_bal=self.acc_bal-amount        
-
+        self.acc_bal=self.acc_bal amount
     def get_bal(self):
         return self.acc_bal-self.min_bal
 

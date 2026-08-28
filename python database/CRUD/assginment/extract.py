@@ -1,0 +1,10 @@
+#Extract data from Rest API's
+
+import requests
+import json
+user_resp=requests.get('https://jsonplaceholder.typicode.com/users')
+users = user_resp.json()
+
+print("users")
+
+
